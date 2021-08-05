@@ -7,13 +7,9 @@ plugins:
   - jekyll-purgecss
 
 author: "Oscar Franco"
-url: "https://ospfranco.com"
-title: "Oscar Franco"
-twitter:
-  username: "ospfranco"
-  card: "summary_large_image"
-image: "assets/preview.jpg"
-future: true # Publish posts with future dates
+url: "https://cidemon.com"
+title: "CI Demon, builds on your desktop"
+description: "macOS app to monitor your CI build jobs from your desktop"
 
 exclude:
   - Gemfile
