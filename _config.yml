@@ -1,0 +1,29 @@
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-postcss
+  - jekyll-purgecss
+
+author: "Oscar Franco"
+url: "https://ospfranco.com"
+title: "Oscar Franco"
+twitter:
+  username: "ospfranco"
+  card: "summary_large_image"
+image: "assets/preview.jpg"
+future: true # Publish posts with future dates
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - netlify.toml
+  - bin
+  - .gitignore
